@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./src/assets/epidemic.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>疫情数据统计</title>
+</head>
+<script async>
+  function resize() {
+    var herowidth = 1000; //改为你要的网页宽度
+    var heroheight = 300; //改为你要的网页高度
+    window.resizeTo(herowidth, heroheight);
+  }
+  resize()
+</script>
+
+<body onresize=resize()>
+  <div id="app"></div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
